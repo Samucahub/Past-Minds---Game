@@ -4,10 +4,6 @@ As mentes do passado estão nas mãos do futuro.
 O destino da humanidade está em suas mãos.
 
 
-
-
-
-
 📜 Briefing da Missão
 
 Um cientista psicopata conhecido apenas como Dr. Cortex Malignus roubou cérebros de algumas das maiores mentes da história.
@@ -18,29 +14,30 @@ Agente Código: Cérebro — um ser altamente modificado com aprimoramentos cibe
 Sua missão: Recuperar os cérebros. Neutralizar a ameaça. Restaurar o futuro.
 
 🖥️ Código da Operação
-    class PastMindsGame:
-        def __init__(self):
-            self.scientist = "Dr. Cortex Malignus"
-            self.agent = "Código: Cérebro"
-            self.mission = "Recuperar os cérebros históricos roubados"
-            self.status = "Em progresso"
-            self.augmentations = [
-                "neural_processor",
-                "ocular_implant",
-                "strength_enhancement"
-            ]
-            self.brains_to_recover = [
-                {"name": "Albert Einstein", "recovered": False},
-                {"name": "Leonardo da Vinci", "recovered": False},
-                {"name": "Marie Curie", "recovered": False},
-                {"name": "Nikola Tesla", "recovered": False},
-                {"name": "Alan Turing", "recovered": False}
-            ]
-        
-        def initiate_protocol_delta(self):
-            print("🔴 Protocolo Delta iniciado...")
-            print("👁️ Ativando visão cibernética...")
-            return "Sistema de aumento: ONLINE"
+class PastMindsGame:
+    def __init__(self):
+        self.scientist = "Dr. Cortex Malignus"
+        self.agent = "Código: Cérebro"
+        self.mission = "Recuperar os cérebros históricos roubados"
+        self.status = "Em progresso"
+        self.augmentations = [
+            "neural_processor",
+            "ocular_implant",
+            "strength_enhancement"
+        ]
+        self.brains_to_recover = [
+            {"name": "Albert Einstein", "recovered": False},
+            {"name": "Leonardo da Vinci", "recovered": False},
+            {"name": "Marie Curie", "recovered": False},
+            {"name": "Nikola Tesla", "recovered": False},
+            {"name": "Alan Turing", "recovered": False}
+        ]
+    
+    def initiate_protocol_delta(self):
+        print("🔴 Protocolo Delta iniciado...")
+        print("👁️ Ativando visão cibernética...")
+        return "Sistema de aumento: ONLINE"
+
 
 🚀 Instalação
 # Clone o repositório para sua estação de trabalho
